@@ -1,0 +1,260 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    
+.navbar{
+    width: 979px;
+    height: 123px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.container-nav img{
+    width: 60px;
+    height: 50px;
+}
+
+.buscar{
+    width: 226px;
+    height: 26px;
+    background-size: 19.52px 15px;
+    margin-right: 40px;
+}
+
+input::placeholder{
+    font-size: 15px;
+    padding-left: 37px;
+   
+}
+
+.titulo{
+    width: 979px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px; 
+}
+
+.container{
+    width: 979px;
+}
+
+.coluna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.noticia-esquerda{
+    width: 884px;
+    height: 536px;
+    margin-bottom: 20px;
+}
+
+.noticia-direita{
+    width: 884px;
+    height: 836px;
+    margin-right: 40px;
+}
+
+.box2{
+    margin-bottom: 50px;
+}
+
+.box2 img{
+    width: 884px;
+    height: 320px;
+}
+
+.flex-linha{
+    width: 979px;
+    margin-top : 5px;
+}
+
+.linha{
+    width: 979px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box-linha img{
+    width: 394px;
+    height: 193px;
+}
+
+.noticias-linha span{
+    font-size: 14px;    
+}
+
+.noticias-linha h3{
+    font-size: 25px;
+}
+
+.noticias-linha p{
+    font-size: 17px;
+}
+
+.hora-noticia{
+    font-size: 17px;
+}
+
+.botao{
+    width: 189px;
+    height: 69px;
+}
+
+.rodape{
+    width: 979px;
+    height: 123.28px;
+}
+
+.rodape img{
+    width: 60px;
+    height: 50px;
+}
+
+.rodape p{
+    font-family: Segoe UI, Semibold;
+    font-size: 25px;
+}
+
+.copright{
+    width: 979px;
+}
+
+.copright span{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 102.12px;
+    margin-right: 102.12px;
+}
+
+}
+
+@media only screen and (max-width: 787px) {
+    .navbar{
+        width: 787px;
+        height: 123px;
+    }
+    
+    .menu{
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+    }
+    
+    .container-nav img{
+        width: 60px;
+        height: 50px;
+        margin-right: 30px;
+    }
+    
+    .buscar{
+        display: none;
+    }
+        
+    .titulo{
+        width: 787px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px; 
+    }
+    
+    .container{
+        width: 787px;
+    }
+    
+    .coluna{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 40px;
+    }
+    
+    .noticia-esquerda{
+        width: 687px;
+        height: 536px;
+        margin-bottom: 20px;
+    }
+    
+    .noticia-direita{
+        width: 687px;
+        height: 836px;
+        margin-right: 40px;
+    }
+    
+    .box2{
+        margin-bottom: 50px;
+    }
+    
+    .box2 img{
+        width: 687px;
+        height: 320px;
+    }
+    
+    .flex-linha{
+        width: 787px;
+        margin-top : 5px;
+    }
+    
+    .linha{
+        width: 787px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .box-linha img{
+        width: 394px;
+        height: 193px;
+    }
+    
+    .noticias-linha span{
+        font-size: 14px;    
+    }
+    
+    .noticias-linha h3{
+        font-size: 18px;
+    }
+    
+    .noticias-linha p{
+        font-size: 14px;
+    }
+    
+    .hora-noticia{
+        font-size: 14px;
+    }
+    
+    .botao{
+        width: 189px;
+        height: 69px;
+    }
+    
+    .rodape{
+        width: 787px;
+        height: 123.28px;
+    }
+    
+    .rodape img{
+        width: 60px;
+        height: 50px;
+    }
+    
+    .rodape p{
+        font-family: Segoe UI, Semibold;
+        font-size: 25px;
+    }
+    
+    .copright{
+        width: 787px;
+    }
+    
+    .copright span{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 102.12px;
+        margin-right: 102.12px;
+    }
+
+}

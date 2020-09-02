@@ -1,0 +1,254 @@
+/************MENU*************/
+.navbar{
+    width: 1920px;
+    height: 123px;
+}
+
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C4170C;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
+}
+
+.menu p {
+    font-size: 25px;
+    font-family: Segoe UI, Semibold;
+    color:#FFFFFF;
+    margin-left: 9px ;
+}
+
+.buscar{
+    width: 326px;
+    height: 46px;
+    border: 1px#707070 solid;
+    border-radius: 8px;
+    background-color: #8B0000;
+    background-image: url('../img/iconfinder_search_126577.svg');
+    background-size: 49.52px 33px;
+    background-position: left;
+    background-repeat: no-repeat;
+    border: black 1px solid;
+    opacity: 100%;
+    margin-right: 94px;
+}
+
+input::placeholder{
+    color: #fff;
+    font-size: 25px;
+    font-family: Segoe UI, Semibold;
+    text-align: left;
+    padding-left: 57px;
+    text-transform: uppercase;
+}
+
+/*********FIM MENU*************/
+
+.titulo{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI, Semibold;
+    font-size: 35px;
+    margin-top: 45px;
+    margin-bottom: 61px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    width: 1920px;
+}
+
+.flex-coluna{
+    display: flex; 
+    flex-direction: column;
+}
+
+.coluna{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 102px;
+}
+
+.noticia-esquerda{
+
+    display: flex;
+    align-items: center;
+    width: 794px;
+    height: 836px;
+    border: 1px black solid;
+}
+
+.box{
+    margin-left: 32px;
+    margin-right: 33px;
+    width: 729px;
+    height: 225px;
+}
+
+.noticia-esquerda .box h2{
+    font-size: 40px;
+    font-family: Segoe UI, Semibold;
+    color: #8B0000;
+}
+.noticia-esquerda .box  p{
+    font-size: 25px;
+    font-family: Segoe UI, Semibold;
+    color: #8B0000;
+
+}
+
+.noticia-direita{
+    display: flex;
+    flex-direction: column;
+    width: 794px;
+    height: 836px;
+    margin-right: 94px;
+}
+
+.box2{
+    margin-bottom: 120px;
+}
+
+.box2 p{
+    font-size: 24px;
+    font-family: Segoe UI, Semibold;
+    font-weight: bold;
+}
+
+.box2 img{
+    width: 834px;
+    height: 320px;
+    border: 1px #707070 solid;
+    border-radius: 4px;
+}
+
+.flex-linha{
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top : 150px;
+}
+
+.linha{
+    display: flex;
+    width: 1920px;
+    height: auto;
+    margin-left: 102px;
+    margin-right: 94px;
+    border-bottom: 2px #707070 solid;
+}
+
+.noticias-linha{
+    text-align: left;
+    margin-top: 45px;
+}
+
+
+.noticias-linha span{
+    font-size: 24px;
+    font-family: Segoe UI, Semibold;
+    font-weight: bold;
+    
+}
+
+.noticias-linha h3{
+    font-family: Segoe UI, Semibold;
+    font-size: 35px;
+    color: #C4170C;
+    padding-bottom: 30px;
+}
+
+.noticias-linha p{
+    font-family: Segoe UI, Semibold;
+    font-size: 27px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.hora-noticia{
+    font-family: Segoe UI, Regular;
+    font-size: 27px;
+    color:#746565;
+}
+
+
+.box-linha img{
+    margin-right: 52px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    width: 794px;
+    height: 393px;
+    border: 1px #707070 solid;
+}
+
+.botao{
+    width: 389px;
+    height: 89px;
+    margin: 179.5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C4170C;
+    border: 1px #707070 solid;
+    border-radius: 4px;
+}
+
+.botao label{
+    font-family: Segoe UI, Semibold;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/************RODAPE*************/
+
+.rodape{
+    display: flex;
+    width: 1920px;
+    height: 153.28px;
+    background-color: #C4170C;
+    border-top: 1px #707070 solid;
+    border-right: 1px #707070 solid;
+    border-left: 1px #707070 solid;
+}
+
+.rodape img{
+    margin-left: 102.12px;
+    margin-top: 40.43px;
+}
+
+.rodape p{
+    font-family: Segoe UI, Semibold;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 36px;
+    margin-top: 55.28px;
+}
+
+.copright{
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #707070 solid;
+    border-right: 1px #707070 solid;
+    border-left: 1px #707070 solid;
+    background-color: #C4170C;
+}
+
+.copright span{
+    font-family: Segoe UI, Semibold;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 102.12px;
+    margin-right: 102.12px;
+}
+
+/************FIM RODAPE*************/
